@@ -1,0 +1,31 @@
+<!-- {/* <form className="form-group " onSubmit={submitFile}>
+    <input type="file" className="form-control" required onChange={onchange} />
+    {fileError && <div className='error-msg'>{fileError}</div>}
+    <br></br>
+    <button type="submit" className="btn btn-success btn-lg" >
+      UPLOAD
+    </button>
+
+  </form>
+  <br></br>
+  <h3>Past Uploades</h3>
+
+
+  {
+    fileList.map((element, index) => {
+      return (
+        <div className='container p-3' key={index}>
+          <h4  >{element.fileName}</h4>
+          <a href={element.downloadURL} >donwload</a>
+          <button className='btn btn-success' type='submit' onClick={() => viewFil(element.fileId)}>viewFile</button>
+        </div>)
+    })
+  }
+  <h3>View PDF</h3>
+  <div className='pdf-container'>
+    {viewPdf && <><Worker workerUrl="https://unpkg.com/pdfjs-dist@2.15.349/build/pdf.worker.min.js">
+      <Viewer fileUrl={viewPdf}
+        plugins={[defaultLayoutPluginInstance]} />
+    </Worker></>}
+    {!viewPdf && <>No pdf file selected</>}
+  </div> */} -->
