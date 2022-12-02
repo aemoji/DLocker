@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DLocker/static/css/main.46f56e9f.css",
-    "main.js": "/DLocker/static/js/main.3bd4f966.js",
+    "main.js": "/DLocker/static/js/main.e18bacdf.js",
     "static/js/787.552a385e.chunk.js": "/DLocker/static/js/787.552a385e.chunk.js",
     "index.html": "/DLocker/index.html",
     "main.46f56e9f.css.map": "/DLocker/static/css/main.46f56e9f.css.map",
-    "main.3bd4f966.js.map": "/DLocker/static/js/main.3bd4f966.js.map",
+    "main.e18bacdf.js.map": "/DLocker/static/js/main.e18bacdf.js.map",
     "787.552a385e.chunk.js.map": "/DLocker/static/js/787.552a385e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46f56e9f.css",
-    "static/js/main.3bd4f966.js"
+    "static/js/main.e18bacdf.js"
   ]
 }
