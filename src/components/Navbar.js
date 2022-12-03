@@ -24,12 +24,12 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="container-fluid">
-         <Link className="navbar-brand" to="/home">DgLocker</Link>
+         <Link className="navbar-brand" to="/DLocker">DgLocker</Link>
         
           <div className="navbar-container">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className={`nav-link  ${location.pathname === "/" ? "active" : ""}`} aria-current="page" to="/home">Home</Link>
+                <Link className={`nav-link  ${location.pathname === "/" ? "active" : ""}`} aria-current="page" to="/DLocker">Home</Link>
               </li>
               <li className="nav-item">
                 <Link className={`nav-link ${location.pathname === "/about" ? "active" : ""}`} to="/about">About</Link>
